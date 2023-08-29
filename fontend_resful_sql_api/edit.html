@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grab Restaurant Application</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body onload="init()">
+    <div class="container text-center">
+        <h1>Grab Restaurant</h1>
+
+        <center>
+
+            <din class="rowform ">
+                <div class="col-6 card justify-centen-center">
+                <h5 class="card-header">
+                    Add new restaurants
+                </h5>
+                <div class="card-body">
+                    <form >
+                        <div class="form-group">
+                            <label for="id"> Restaurant Id</label>
+                            <input type="text" class="form-control" id="id" placeholder="Id">
+                        </div>
+                        <div class="form-group">
+                            <label for="id"> Restaurant Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Restaurant name">
+                        </div>
+                        <div class="form-group">
+                            <label for="id"> Restaurant Type</label>
+                            <input type="text" class="form-control" id="type" placeholder="Restaurant type">
+                        </div>
+                        <div class="form-group">
+                            <label for="id"> Restaurant imageURL</label>
+                            <input type="text" class="form-control" id="imageURL" placeholder="Restaurant imageURL">
+                        </div>
+                       
+                            <button type="submit" class="btn" onclick="edit(); return false"  >แก้ไขเรียบร้อย</button>
+                            <a href="index.html" class="btn">กลับหน้าหลัก</a>
+                        
+                    </form>
+                </div>
+            </div>
+        </din>
+    </center>
+
+        
+    </div>
+    <script src="edit.js"></script>
+</body>
+
+</html>

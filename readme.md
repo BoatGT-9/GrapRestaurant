@@ -1,7 +1,7 @@
 # RESTAURNAT API EI EI
 ## Author : **Surapong keaynin**
 ----------------------------------------------------------------------------
-### Servive Packaeg
+### Servive Package
   - Node.js
   - Sequelize
   - cors
